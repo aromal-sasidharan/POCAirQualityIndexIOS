@@ -1,4 +1,0 @@
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CleanBreezeDomain.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CleanBreezeUtility.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dashboard.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Networking.framework
