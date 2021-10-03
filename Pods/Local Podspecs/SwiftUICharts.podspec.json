@@ -1,0 +1,22 @@
+{
+  "name": "SwiftUICharts",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftUICharts.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aromal.sasidharan/SwiftUICharts",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aromal.sasidharan": "aromalsasidharan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aromal.sasidharan/SwiftUICharts.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "src/**/*.{swift}"
+}

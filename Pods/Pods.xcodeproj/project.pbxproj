@@ -1,0 +1,1507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0385BC4FF86A1F7E839B9715FDEA3ED7 /* AbstractDashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4279134292BB9EA707CE777350736EB /* AbstractDashboardPresenter.swift */; };
+		071684E77B814DC592E5FBB40444B1AA /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF80AC9DD04B023455A5247195A5938 /* DashboardPresenter.swift */; };
+		0790A327B070641795DA531EAC5AE861 /* Dashboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD78961BDD8346B7AE326CE100981F89 /* Dashboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13940C8DF2FEF0208CED5F165AF51B9A /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C11353627F3C0314066248DCDEDAEAA /* Sample.swift */; };
+		1840A654EFC3038EC5A047C2BDBB24C6 /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E1911636F9CB16C412DDCFD1B689A6 /* WebSocketClient.swift */; };
+		1D298B3D01CB5C58AA16DFE102A6EC91 /* AqiViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931B7453FBE17112293C1867CB7620D /* AqiViewModelMapper.swift */; };
+		256D6DD32E5F64E94DB2319901E7E670 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1A647373077B1AE76357920924FDCC /* Networking.framework */; };
+		271C237C82BD243DDADDA6B57CCB2B8B /* CleanBreezeUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF21C21EFC4D861FAB9F4EB91CC9DD0A /* CleanBreezeUtility.framework */; };
+		4718794C1413270BF9311CB83CA5CF31 /* JsonDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B434F75163CEE482DAFE9CE5E6CA9 /* JsonDataExtension.swift */; };
+		47829556E3C5B228F7C2A5C366D94EBD /* AqiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74795C9CC91A20AF2932F942C343EA29 /* AqiViewModel.swift */; };
+		49FE6843420B56A720891CEDBA79B4C4 /* Networking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D93424BEF048727F75EBCFB4F33FEB1C /* Networking-dummy.m */; };
+		4A2C9920F8A782CA5A19D13128A47EAE /* AbstractDashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166C71B518D6437BD109F4EDD2D03351 /* AbstractDashboardInteractor.swift */; };
+		4ADE12107487EE4CCE9B6F57EA015D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1112AB990CEE9FC6ECB5102B99DE9C82 /* Foundation.framework */; };
+		4C36398DC0E107E9F85BB4FF9D148736 /* Sample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BD92598DC9C91371A73256FF3EBFB4 /* Sample1.swift */; };
+		4CAE4B1BDEE7D18BC68154D4C232F378 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F32F92E30F07F5DCDB9BE87F69F51D /* ReplaceMe.swift */; };
+		5AE23DAE33760385BFE8E27B47030D6C /* CBResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D73E8AC76944FD598D3AECC533800C /* CBResult.swift */; };
+		5E60556501019E734B0C1F990BEF5E74 /* Networking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F9544E136A87ADA83629D02A58EFDD /* Networking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EAE2AA5A1F972D2912A8EAAA7512DD7 /* Sample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311245C3847D59453070AAF8AD92CDB0 /* Sample2.swift */; };
+		630A7230063ED3FB4557B6A80F8DA199 /* CleanBreezeDomain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7041C8D0210532F18126E4EF71870794 /* CleanBreezeDomain-dummy.m */; };
+		66BACBC19395A098F34558265B14EED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1112AB990CEE9FC6ECB5102B99DE9C82 /* Foundation.framework */; };
+		6B584586F731B24F6A74E03287135056 /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE44C4E7FAE561C2848C33418034576 /* DashboardInteractor.swift */; };
+		7140144B94F4AE6E45CE271D7C87238D /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D9F398D0D44E2D58D6E609F6A2EBE /* AsyncImage.swift */; };
+		7281CAC08FBF77CD29EE5CC121841001 /* AbstractAqiViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A2C7937B801012210AB5B80582EA67 /* AbstractAqiViewModelMapper.swift */; };
+		7E9D93DED5A0B2050D9243FF98018781 /* CleanBreezeDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C829D839E1C007705E684712BF17034 /* CleanBreezeDomain.framework */; };
+		83E7DFE52D8EC6CE8A34268F649F8291 /* Pods-CleanBreeze (iOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC2E887A2637EF1979A5A077DC27946 /* Pods-CleanBreeze (iOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8652D7A66D2B14BAE658AFFE942AE690 /* CleanBreezeDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C829D839E1C007705E684712BF17034 /* CleanBreezeDomain.framework */; };
+		8A4D2D3674A9B630B102536D9F1E432D /* CleanBreezeUtility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDE60216D06B1AA4B69FF357CA2049C /* CleanBreezeUtility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C87BE658C8559323303A717DF8CE930 /* AqiGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEFB6682DF1383E105F610BDB27089B /* AqiGraphView.swift */; };
+		8DE8F474A78AE88E3DE6A791268FCFF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1112AB990CEE9FC6ECB5102B99DE9C82 /* Foundation.framework */; };
+		93DB7BB34B18E41958DCFD50371FD008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1112AB990CEE9FC6ECB5102B99DE9C82 /* Foundation.framework */; };
+		A22840C956AA1FB90F085BD195CD15BF /* DashboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A051F2FA639DC2989DDC6373A995344 /* DashboardConfigurator.swift */; };
+		A934811B0682758674214D9147791468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1112AB990CEE9FC6ECB5102B99DE9C82 /* Foundation.framework */; };
+		ABDB874B62EC20FEABB95C194380E411 /* AqiCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40C091CD0020FB2A7509CE4988091C /* AqiCategory.swift */; };
+		AC07A65F2C0E6F6F8812B2E8FFF2A9C5 /* CleanBreezeUtility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7623E6C160916AF30D4D9298787DCD00 /* CleanBreezeUtility-dummy.m */; };
+		AD19B786D1F9F5CFBFE77A48F23F649B /* Pods-CleanBreeze (iOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB03A7A7B2B81C15C7ABC16EA96ED39 /* Pods-CleanBreeze (iOS)-dummy.m */; };
+		B313375F270A0FEE004643BE /* AqiGraphViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313375E270A0FEE004643BE /* AqiGraphViewModelMapper.swift */; };
+		B3133761270A283D004643BE /* AqiProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3133760270A283D004643BE /* AqiProgressViewModel.swift */; };
+		B3133763270A2997004643BE /* AbstractAqiProgressViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3133762270A2997004643BE /* AbstractAqiProgressViewModelMapper.swift */; };
+		D0E3A3B0191C706BFDDBA87C7C1853C1 /* CreateObserverExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB70C8D0BF6E8EFFD52BC44D23463A /* CreateObserverExtension.swift */; };
+		DA2ECF9A4FB2E31677B8F1C3430F5E07 /* CBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931BFB12AEE62225E4CB2975A78C9A2 /* CBError.swift */; };
+		DD43D3739E65EF9018C25DCCC3E244D9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9930E13EA956ABCA52383CF2E29F84 /* DashboardView.swift */; };
+		DDCDC6FA83D70640966C0F7FC9DDB44D /* CleanBreezeDomain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D922F30ED850B4F903E0EFACC6396E21 /* CleanBreezeDomain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4A4DF264E3FC29B507DEB00BAD4A0B0 /* CleanBreezeUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF21C21EFC4D861FAB9F4EB91CC9DD0A /* CleanBreezeUtility.framework */; };
+		EAE9D446DE803D0376512485A0BE998C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6348F2D1FA44890BD401F12C2ED0E9 /* ReplaceMe.swift */; };
+		F0BBC934B1372A116B9B6AD1C829DE4F /* Dashboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4623F6E2EE7C4FF73687EDB4218CE2CE /* Dashboard-dummy.m */; };
+		F8ABDB6990E3CC46A7FFE86B90BBDD06 /* CityEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCC4F9714744E88D41B686CCF6D7AB /* CityEntity.swift */; };
+		F8C2E0AE6E96E68805127A1B4860082B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1760D4C9836998318E11C14246C224 /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19E7AFCCFF5C2E3CCAFE56DB50A70F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2267C2D9D018961E49AA58CF3DC094C;
+			remoteInfo = Networking;
+		};
+		1A0049B193E83C9EE976C4D594C1244F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E204893E478BF4CA70D9ADC2D4E4881;
+			remoteInfo = CleanBreezeUtility;
+		};
+		437676EB78C58DF3106EF96C227F2DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2267C2D9D018961E49AA58CF3DC094C;
+			remoteInfo = Networking;
+		};
+		55A6E00A65AAB88B75912EF05F38F2B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E204893E478BF4CA70D9ADC2D4E4881;
+			remoteInfo = CleanBreezeUtility;
+		};
+		89B4876DDDAD4300335CB9E1DCE6C402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB72601AA4DF3AC01FE02F8C24D03D83;
+			remoteInfo = CleanBreezeDomain;
+		};
+		B21B60A166CA826B9AE94877BB21F8F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E204893E478BF4CA70D9ADC2D4E4881;
+			remoteInfo = CleanBreezeUtility;
+		};
+		B7CC14A062E55BD83B61B0B23E2FBA98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB72601AA4DF3AC01FE02F8C24D03D83;
+			remoteInfo = CleanBreezeDomain;
+		};
+		C7B54F6BC61186B727F1A583C16086FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EEAB2A3D32B2D976FE52FA1DBE5507E;
+			remoteInfo = Dashboard;
+		};
+		D6B838784739555F48C04C8228F1E791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB72601AA4DF3AC01FE02F8C24D03D83;
+			remoteInfo = CleanBreezeDomain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026A8B61CAD0B678212638BEB2660178 /* CleanBreezeDomain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanBreezeDomain-prefix.pch"; sourceTree = "<group>"; };
+		045A0F3765D4CCBB5DAF5F53D0423491 /* Pods-CleanBreeze (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanBreeze (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		084D9B35B9463FABA037B70F0E855061 /* Pods_CleanBreeze__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanBreeze__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF80AC9DD04B023455A5247195A5938 /* DashboardPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		0D3B434F75163CEE482DAFE9CE5E6CA9 /* JsonDataExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JsonDataExtension.swift; sourceTree = "<group>"; };
+		108430133E58C8C5277789702DE64400 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1112AB990CEE9FC6ECB5102B99DE9C82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		121F4E8B53E4A03E457F918FA1AFB42B /* Networking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Networking-Info.plist"; sourceTree = "<group>"; };
+		1398177512C45945DBF95EE31C0DE085 /* Pods-CleanBreeze (iOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanBreeze (iOS)-acknowledgements.plist"; sourceTree = "<group>"; };
+		166C71B518D6437BD109F4EDD2D03351 /* AbstractDashboardInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AbstractDashboardInteractor.swift; sourceTree = "<group>"; };
+		1AF46F743E17E85ADB4F830879C2FD4E /* Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Networking.debug.xcconfig; sourceTree = "<group>"; };
+		1DEFB6682DF1383E105F610BDB27089B /* AqiGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AqiGraphView.swift; sourceTree = "<group>"; };
+		1FEE63B4E75F009558113C39D043D106 /* Networking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-prefix.pch"; sourceTree = "<group>"; };
+		26BD92598DC9C91371A73256FF3EBFB4 /* Sample1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Sample1.swift; sourceTree = "<group>"; };
+		28A2C7937B801012210AB5B80582EA67 /* AbstractAqiViewModelMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AbstractAqiViewModelMapper.swift; sourceTree = "<group>"; };
+		2A051F2FA639DC2989DDC6373A995344 /* DashboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardConfigurator.swift; path = src/DashboardConfigurator.swift; sourceTree = "<group>"; };
+		2F2CA8E0A905536A91F90AA2EA24653A /* Pods-CleanBreeze (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanBreeze (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		311245C3847D59453070AAF8AD92CDB0 /* Sample2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Sample2.swift; sourceTree = "<group>"; };
+		322A868E2B8B83F0DCB5CAC4C253958A /* CleanBreezeUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanBreezeUtility.debug.xcconfig; sourceTree = "<group>"; };
+		334743D3FAEA1E782BF5B92C93E3A590 /* Dashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3931B7453FBE17112293C1867CB7620D /* AqiViewModelMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AqiViewModelMapper.swift; sourceTree = "<group>"; };
+		3C11353627F3C0314066248DCDEDAEAA /* Sample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		3CA68C1FEE3EF5095650363615753899 /* Pods-CleanBreeze (iOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanBreeze (iOS).modulemap"; sourceTree = "<group>"; };
+		4623F6E2EE7C4FF73687EDB4218CE2CE /* Dashboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dashboard-dummy.m"; sourceTree = "<group>"; };
+		471E9BB8710086C4DDA6674980A235AA /* Pods-CleanBreeze (iOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanBreeze (iOS)-Info.plist"; sourceTree = "<group>"; };
+		47B1E78F80F33BC072090BB5DBD4B2A2 /* Networking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Networking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		55E1911636F9CB16C412DDCFD1B689A6 /* WebSocketClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebSocketClient.swift; sourceTree = "<group>"; };
+		66234A559ACE1E3D104DD14E976A0441 /* Pods-CleanBreeze (iOS)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanBreeze (iOS)-frameworks.sh"; sourceTree = "<group>"; };
+		6CFB4B0A40439C13C03306C305FEC5BE /* CleanBreezeUtility.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CleanBreezeUtility.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D1A647373077B1AE76357920924FDCC /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA0D093BD3A7D94937B44773AE7C27E /* CleanBreezeDomain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanBreezeDomain.release.xcconfig; sourceTree = "<group>"; };
+		7041C8D0210532F18126E4EF71870794 /* CleanBreezeDomain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleanBreezeDomain-dummy.m"; sourceTree = "<group>"; };
+		74795C9CC91A20AF2932F942C343EA29 /* AqiViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AqiViewModel.swift; sourceTree = "<group>"; };
+		75F32F92E30F07F5DCDB9BE87F69F51D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		7623E6C160916AF30D4D9298787DCD00 /* CleanBreezeUtility-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleanBreezeUtility-dummy.m"; sourceTree = "<group>"; };
+		7BDE60216D06B1AA4B69FF357CA2049C /* CleanBreezeUtility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanBreezeUtility-umbrella.h"; sourceTree = "<group>"; };
+		7C829D839E1C007705E684712BF17034 /* CleanBreezeDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanBreezeDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E93575EB776D18577A3BB8EBCFC630E /* CleanBreezeUtility-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CleanBreezeUtility-Info.plist"; sourceTree = "<group>"; };
+		92DDEA2CE354045822DD1378107F0821 /* CleanBreezeUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanBreezeUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		930A7726F27F59823B9654661C40E224 /* Dashboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Dashboard-Info.plist"; sourceTree = "<group>"; };
+		9C40C091CD0020FB2A7509CE4988091C /* AqiCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AqiCategory.swift; sourceTree = "<group>"; };
+		9CCB1E0E624544EFA6B2AD5E773E6018 /* Pods-CleanBreeze (iOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanBreeze (iOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACE44C4E7FAE561C2848C33418034576 /* DashboardInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
+		B2FB70C8D0BF6E8EFFD52BC44D23463A /* CreateObserverExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateObserverExtension.swift; sourceTree = "<group>"; };
+		B313375E270A0FEE004643BE /* AqiGraphViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqiGraphViewModelMapper.swift; sourceTree = "<group>"; };
+		B3133760270A283D004643BE /* AqiProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqiProgressViewModel.swift; sourceTree = "<group>"; };
+		B3133762270A2997004643BE /* AbstractAqiProgressViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractAqiProgressViewModelMapper.swift; sourceTree = "<group>"; };
+		BADCC4F9714744E88D41B686CCF6D7AB /* CityEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CityEntity.swift; sourceTree = "<group>"; };
+		BCB03A7A7B2B81C15C7ABC16EA96ED39 /* Pods-CleanBreeze (iOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanBreeze (iOS)-dummy.m"; sourceTree = "<group>"; };
+		C13527C0A5AD1033E91633FEE98DF256 /* CleanBreezeDomain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CleanBreezeDomain.modulemap; sourceTree = "<group>"; };
+		C2D73E8AC76944FD598D3AECC533800C /* CBResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBResult.swift; sourceTree = "<group>"; };
+		C59D9F398D0D44E2D58D6E609F6A2EBE /* AsyncImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		C78F0A0147113A929E37E57E3502D9D7 /* Dashboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Dashboard.modulemap; sourceTree = "<group>"; };
+		C860AE9F1460D3A890BB6955127854FB /* Networking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Networking.release.xcconfig; sourceTree = "<group>"; };
+		C90634410AB9B059010D4E329ECE3978 /* Dashboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dashboard-prefix.pch"; sourceTree = "<group>"; };
+		CAA97E9028A4B72D4AFBB8D7F7C839EF /* CleanBreezeDomain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanBreezeDomain.debug.xcconfig; sourceTree = "<group>"; };
+		CB6348F2D1FA44890BD401F12C2ED0E9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = src/ReplaceMe.swift; sourceTree = "<group>"; };
+		CBAAD5E6EEFA568D1EEB14BCA9F46164 /* CleanBreezeUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanBreezeUtility.release.xcconfig; sourceTree = "<group>"; };
+		CD1760D4C9836998318E11C14246C224 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D187B930EB0BEB1DE2883A0A52F6015D /* Networking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Networking.modulemap; sourceTree = "<group>"; };
+		D278CC7E296D968906DC1543FC83BCAC /* Dashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dashboard.release.xcconfig; sourceTree = "<group>"; };
+		D2951A854670BAF2E2869443E291A72F /* Dashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dashboard.debug.xcconfig; sourceTree = "<group>"; };
+		D4279134292BB9EA707CE777350736EB /* AbstractDashboardPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AbstractDashboardPresenter.swift; sourceTree = "<group>"; };
+		D922F30ED850B4F903E0EFACC6396E21 /* CleanBreezeDomain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanBreezeDomain-umbrella.h"; sourceTree = "<group>"; };
+		D931BFB12AEE62225E4CB2975A78C9A2 /* CBError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CBError.swift; sourceTree = "<group>"; };
+		D93424BEF048727F75EBCFB4F33FEB1C /* Networking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Networking-dummy.m"; sourceTree = "<group>"; };
+		DB13D93C1F304B7CA16C4890D24051AF /* CleanBreezeDomain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CleanBreezeDomain-Info.plist"; sourceTree = "<group>"; };
+		DD78961BDD8346B7AE326CE100981F89 /* Dashboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dashboard-umbrella.h"; sourceTree = "<group>"; };
+		DDE8C1EF6DADE0149EDE4E500DCD5B53 /* CleanBreezeDomain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CleanBreezeDomain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E0F9544E136A87ADA83629D02A58EFDD /* Networking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-umbrella.h"; sourceTree = "<group>"; };
+		E8CBE4F90238FF7BC1B70EDC898F3575 /* CleanBreezeDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanBreezeDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA61DAB945DE18B21793E37BD9C5F610 /* CleanBreezeUtility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CleanBreezeUtility.modulemap; sourceTree = "<group>"; };
+		EC9930E13EA956ABCA52383CF2E29F84 /* DashboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		EEC2E887A2637EF1979A5A077DC27946 /* Pods-CleanBreeze (iOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanBreeze (iOS)-umbrella.h"; sourceTree = "<group>"; };
+		F455D2E69179BFE54DF17E5DD525577E /* Dashboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Dashboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FCFD6F74F34BFECB03A2BE2F7FE84BEC /* CleanBreezeUtility-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanBreezeUtility-prefix.pch"; sourceTree = "<group>"; };
+		FF21C21EFC4D861FAB9F4EB91CC9DD0A /* CleanBreezeUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanBreezeUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B8855EABEFFCC04F2F9DFE13CAAB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE8F474A78AE88E3DE6A791268FCFF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A444C5B959DFA6927B0F65DA8C72014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8652D7A66D2B14BAE658AFFE942AE690 /* CleanBreezeDomain.framework in Frameworks */,
+				E4A4DF264E3FC29B507DEB00BAD4A0B0 /* CleanBreezeUtility.framework in Frameworks */,
+				66BACBC19395A098F34558265B14EED2 /* Foundation.framework in Frameworks */,
+				256D6DD32E5F64E94DB2319901E7E670 /* Networking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6716B867210C9416507A8CEF39133BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9D93DED5A0B2050D9243FF98018781 /* CleanBreezeDomain.framework in Frameworks */,
+				271C237C82BD243DDADDA6B57CCB2B8B /* CleanBreezeUtility.framework in Frameworks */,
+				93DB7BB34B18E41958DCFD50371FD008 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83ED4114A623AB01CD1C87095CB7F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADE12107487EE4CCE9B6F57EA015D25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7E0BF32BCB1E2553224C4F4D8B2943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A934811B0682758674214D9147791468 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C46C4D87B1F04105DD37DBEEE4DE3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C829D839E1C007705E684712BF17034 /* CleanBreezeDomain.framework */,
+				FF21C21EFC4D861FAB9F4EB91CC9DD0A /* CleanBreezeUtility.framework */,
+				6D1A647373077B1AE76357920924FDCC /* Networking.framework */,
+				D0A388C082F0DC3CECFF4F2271A3D11F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D0222C341AD9895188F5085DC1EA786 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA61DAB945DE18B21793E37BD9C5F610 /* CleanBreezeUtility.modulemap */,
+				7623E6C160916AF30D4D9298787DCD00 /* CleanBreezeUtility-dummy.m */,
+				8E93575EB776D18577A3BB8EBCFC630E /* CleanBreezeUtility-Info.plist */,
+				FCFD6F74F34BFECB03A2BE2F7FE84BEC /* CleanBreezeUtility-prefix.pch */,
+				7BDE60216D06B1AA4B69FF357CA2049C /* CleanBreezeUtility-umbrella.h */,
+				322A868E2B8B83F0DCB5CAC4C253958A /* CleanBreezeUtility.debug.xcconfig */,
+				CBAAD5E6EEFA568D1EEB14BCA9F46164 /* CleanBreezeUtility.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/CleanBreezeUtility";
+			sourceTree = "<group>";
+		};
+		20BD04506D27F0DE8CBD2EBA53F02324 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				CD1760D4C9836998318E11C14246C224 /* StringExtension.swift */,
+			);
+			name = String;
+			path = src/String;
+			sourceTree = "<group>";
+		};
+		2B3B272984302BBEFB2324CAC772192E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F455D2E69179BFE54DF17E5DD525577E /* Dashboard.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		30F94E54C4138D32D8185F32CE257800 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D931BFB12AEE62225E4CB2975A78C9A2 /* CBError.swift */,
+				C2D73E8AC76944FD598D3AECC533800C /* CBResult.swift */,
+			);
+			name = Common;
+			path = src/Common;
+			sourceTree = "<group>";
+		};
+		32FB97CDA626D49DB70512D44464A6C1 /* CleanBreezeUtility */ = {
+			isa = PBXGroup;
+			children = (
+				CB37139691F8C0956C5AC4792D8BED1E /* Combine */,
+				717E410A76DC4E46875BD3229D61B1F9 /* Data */,
+				49A29DF9B508145A7FF7D77894C3E5FC /* Pod */,
+				20BD04506D27F0DE8CBD2EBA53F02324 /* String */,
+				1D0222C341AD9895188F5085DC1EA786 /* Support Files */,
+			);
+			name = CleanBreezeUtility;
+			path = ../Modules/CleanBreezeUtility;
+			sourceTree = "<group>";
+		};
+		4150CDDEC771A311B45B3CB4B851EDCA /* CleanBreezeDomain */ = {
+			isa = PBXGroup;
+			children = (
+				30F94E54C4138D32D8185F32CE257800 /* Common */,
+				7552D4DC00AB30C11FEB6D332A027737 /* Entity */,
+				931F87C61B5918B64A61845A3B8EDFAB /* Interface */,
+				693508CDE18DDE2F24099CFD7C3C136A /* Pod */,
+				64A8EEE256D00BF54CB2F4D64631F67D /* Support Files */,
+			);
+			name = CleanBreezeDomain;
+			path = ../Modules/CleanBreezeDomain;
+			sourceTree = "<group>";
+		};
+		495F8E6FD2B8E3DDCA7C3231A1406E23 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				3931B7453FBE17112293C1867CB7620D /* AqiViewModelMapper.swift */,
+				B313375E270A0FEE004643BE /* AqiGraphViewModelMapper.swift */,
+			);
+			name = Mapper;
+			path = src/Mapper;
+			sourceTree = "<group>";
+		};
+		49A29DF9B508145A7FF7D77894C3E5FC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6CFB4B0A40439C13C03306C305FEC5BE /* CleanBreezeUtility.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4AD5B1E561BEA66804BA364CAA915E40 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2A051F2FA639DC2989DDC6373A995344 /* DashboardConfigurator.swift */,
+				898D82408E74C037EBE79600C0DBFEF2 /* Interactor */,
+				D16C5BC8F6B522769E67EF828ECC652F /* Interface */,
+				495F8E6FD2B8E3DDCA7C3231A1406E23 /* Mapper */,
+				2B3B272984302BBEFB2324CAC772192E /* Pod */,
+				8D38A284B59222452346DDF08FE53077 /* presenter */,
+				8A12C14C5266DA249179072953A97FFD /* Scene */,
+				652326B1773A334BB256A9AB8FF6D205 /* Support Files */,
+				E83D4371D1A4463485DFA8D120661386 /* ViewModel */,
+				EDDA4078FD6F45C17C03D5506FCE94E3 /* Views */,
+			);
+			name = Dashboard;
+			path = ../Modules/Dashboard;
+			sourceTree = "<group>";
+		};
+		64561C880005AF2068BC2D66B202EACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8CBE4F90238FF7BC1B70EDC898F3575 /* CleanBreezeDomain.framework */,
+				92DDEA2CE354045822DD1378107F0821 /* CleanBreezeUtility.framework */,
+				334743D3FAEA1E782BF5B92C93E3A590 /* Dashboard.framework */,
+				108430133E58C8C5277789702DE64400 /* Networking.framework */,
+				084D9B35B9463FABA037B70F0E855061 /* Pods_CleanBreeze__iOS_.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64A8EEE256D00BF54CB2F4D64631F67D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13527C0A5AD1033E91633FEE98DF256 /* CleanBreezeDomain.modulemap */,
+				7041C8D0210532F18126E4EF71870794 /* CleanBreezeDomain-dummy.m */,
+				DB13D93C1F304B7CA16C4890D24051AF /* CleanBreezeDomain-Info.plist */,
+				026A8B61CAD0B678212638BEB2660178 /* CleanBreezeDomain-prefix.pch */,
+				D922F30ED850B4F903E0EFACC6396E21 /* CleanBreezeDomain-umbrella.h */,
+				CAA97E9028A4B72D4AFBB8D7F7C839EF /* CleanBreezeDomain.debug.xcconfig */,
+				6FA0D093BD3A7D94937B44773AE7C27E /* CleanBreezeDomain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/CleanBreezeDomain";
+			sourceTree = "<group>";
+		};
+		652326B1773A334BB256A9AB8FF6D205 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78F0A0147113A929E37E57E3502D9D7 /* Dashboard.modulemap */,
+				4623F6E2EE7C4FF73687EDB4218CE2CE /* Dashboard-dummy.m */,
+				930A7726F27F59823B9654661C40E224 /* Dashboard-Info.plist */,
+				C90634410AB9B059010D4E329ECE3978 /* Dashboard-prefix.pch */,
+				DD78961BDD8346B7AE326CE100981F89 /* Dashboard-umbrella.h */,
+				D2951A854670BAF2E2869443E291A72F /* Dashboard.debug.xcconfig */,
+				D278CC7E296D968906DC1543FC83BCAC /* Dashboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Dashboard";
+			sourceTree = "<group>";
+		};
+		693508CDE18DDE2F24099CFD7C3C136A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8C1EF6DADE0149EDE4E500DCD5B53 /* CleanBreezeDomain.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		717E410A76DC4E46875BD3229D61B1F9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B434F75163CEE482DAFE9CE5E6CA9 /* JsonDataExtension.swift */,
+				75F32F92E30F07F5DCDB9BE87F69F51D /* ReplaceMe.swift */,
+			);
+			name = Data;
+			path = src/Data;
+			sourceTree = "<group>";
+		};
+		7552D4DC00AB30C11FEB6D332A027737 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9C40C091CD0020FB2A7509CE4988091C /* AqiCategory.swift */,
+				BADCC4F9714744E88D41B686CCF6D7AB /* CityEntity.swift */,
+				3C11353627F3C0314066248DCDEDAEAA /* Sample.swift */,
+			);
+			name = Entity;
+			path = src/Entity;
+			sourceTree = "<group>";
+		};
+		779ABC558BAF97B566CE368ECA731297 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				55E1911636F9CB16C412DDCFD1B689A6 /* WebSocketClient.swift */,
+			);
+			name = Client;
+			path = src/Client;
+			sourceTree = "<group>";
+		};
+		898D82408E74C037EBE79600C0DBFEF2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				ACE44C4E7FAE561C2848C33418034576 /* DashboardInteractor.swift */,
+			);
+			name = Interactor;
+			path = src/Interactor;
+			sourceTree = "<group>";
+		};
+		8A12C14C5266DA249179072953A97FFD /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1DEFB6682DF1383E105F610BDB27089B /* AqiGraphView.swift */,
+				EC9930E13EA956ABCA52383CF2E29F84 /* DashboardView.swift */,
+			);
+			name = Scene;
+			path = src/Scene;
+			sourceTree = "<group>";
+		};
+		8D38A284B59222452346DDF08FE53077 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0CF80AC9DD04B023455A5247195A5938 /* DashboardPresenter.swift */,
+			);
+			name = presenter;
+			path = src/presenter;
+			sourceTree = "<group>";
+		};
+		931F87C61B5918B64A61845A3B8EDFAB /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				26BD92598DC9C91371A73256FF3EBFB4 /* Sample1.swift */,
+				311245C3847D59453070AAF8AD92CDB0 /* Sample2.swift */,
+			);
+			name = Interface;
+			path = src/Interface;
+			sourceTree = "<group>";
+		};
+		93AFE2017D6D60937431B3437BDE3454 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C73B3ED7A12982AD2B8ABD3DCA62C666 /* Pods-CleanBreeze (iOS) */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C73B3ED7A12982AD2B8ABD3DCA62C666 /* Pods-CleanBreeze (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				3CA68C1FEE3EF5095650363615753899 /* Pods-CleanBreeze (iOS).modulemap */,
+				9CCB1E0E624544EFA6B2AD5E773E6018 /* Pods-CleanBreeze (iOS)-acknowledgements.markdown */,
+				1398177512C45945DBF95EE31C0DE085 /* Pods-CleanBreeze (iOS)-acknowledgements.plist */,
+				BCB03A7A7B2B81C15C7ABC16EA96ED39 /* Pods-CleanBreeze (iOS)-dummy.m */,
+				66234A559ACE1E3D104DD14E976A0441 /* Pods-CleanBreeze (iOS)-frameworks.sh */,
+				471E9BB8710086C4DDA6674980A235AA /* Pods-CleanBreeze (iOS)-Info.plist */,
+				EEC2E887A2637EF1979A5A077DC27946 /* Pods-CleanBreeze (iOS)-umbrella.h */,
+				2F2CA8E0A905536A91F90AA2EA24653A /* Pods-CleanBreeze (iOS).debug.xcconfig */,
+				045A0F3765D4CCBB5DAF5F53D0423491 /* Pods-CleanBreeze (iOS).release.xcconfig */,
+			);
+			name = "Pods-CleanBreeze (iOS)";
+			path = "Target Support Files/Pods-CleanBreeze (iOS)";
+			sourceTree = "<group>";
+		};
+		CB37139691F8C0956C5AC4792D8BED1E /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				B2FB70C8D0BF6E8EFFD52BC44D23463A /* CreateObserverExtension.swift */,
+			);
+			name = Combine;
+			path = src/Combine;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F39DA8EAF1CE711ED40F6D2921577720 /* Development Pods */,
+				12C46C4D87B1F04105DD37DBEEE4DE3D /* Frameworks */,
+				64561C880005AF2068BC2D66B202EACB /* Products */,
+				93AFE2017D6D60937431B3437BDE3454 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0A388C082F0DC3CECFF4F2271A3D11F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1112AB990CEE9FC6ECB5102B99DE9C82 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D16C5BC8F6B522769E67EF828ECC652F /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				28A2C7937B801012210AB5B80582EA67 /* AbstractAqiViewModelMapper.swift */,
+				166C71B518D6437BD109F4EDD2D03351 /* AbstractDashboardInteractor.swift */,
+				D4279134292BB9EA707CE777350736EB /* AbstractDashboardPresenter.swift */,
+				B3133762270A2997004643BE /* AbstractAqiProgressViewModelMapper.swift */,
+			);
+			name = Interface;
+			path = src/Interface;
+			sourceTree = "<group>";
+		};
+		E83D4371D1A4463485DFA8D120661386 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74795C9CC91A20AF2932F942C343EA29 /* AqiViewModel.swift */,
+				B3133760270A283D004643BE /* AqiProgressViewModel.swift */,
+			);
+			name = ViewModel;
+			path = src/ViewModel;
+			sourceTree = "<group>";
+		};
+		EC19858CF2062A40748638754890D2C1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CB6348F2D1FA44890BD401F12C2ED0E9 /* ReplaceMe.swift */,
+				779ABC558BAF97B566CE368ECA731297 /* Client */,
+				FB569C34433212B934652656D96CFA44 /* Pod */,
+				F142771947C5645F87AE7B7CD7F94B6C /* Support Files */,
+			);
+			name = Networking;
+			path = ../Modules/Networking;
+			sourceTree = "<group>";
+		};
+		EDDA4078FD6F45C17C03D5506FCE94E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C59D9F398D0D44E2D58D6E609F6A2EBE /* AsyncImage.swift */,
+			);
+			name = Views;
+			path = src/Views;
+			sourceTree = "<group>";
+		};
+		F142771947C5645F87AE7B7CD7F94B6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D187B930EB0BEB1DE2883A0A52F6015D /* Networking.modulemap */,
+				D93424BEF048727F75EBCFB4F33FEB1C /* Networking-dummy.m */,
+				121F4E8B53E4A03E457F918FA1AFB42B /* Networking-Info.plist */,
+				1FEE63B4E75F009558113C39D043D106 /* Networking-prefix.pch */,
+				E0F9544E136A87ADA83629D02A58EFDD /* Networking-umbrella.h */,
+				1AF46F743E17E85ADB4F830879C2FD4E /* Networking.debug.xcconfig */,
+				C860AE9F1460D3A890BB6955127854FB /* Networking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Networking";
+			sourceTree = "<group>";
+		};
+		F39DA8EAF1CE711ED40F6D2921577720 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4150CDDEC771A311B45B3CB4B851EDCA /* CleanBreezeDomain */,
+				32FB97CDA626D49DB70512D44464A6C1 /* CleanBreezeUtility */,
+				4AD5B1E561BEA66804BA364CAA915E40 /* Dashboard */,
+				EC19858CF2062A40748638754890D2C1 /* Networking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FB569C34433212B934652656D96CFA44 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				47B1E78F80F33BC072090BB5DBD4B2A2 /* Networking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BDCB6AAD6080180EAD81DAE8FFEDB96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E60556501019E734B0C1F990BEF5E74 /* Networking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D63FD9B6326440C0342F922359329C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790A327B070641795DA531EAC5AE861 /* Dashboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FDE85AD0B815D00C246FA9E0244404 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E7DFE52D8EC6CE8A34268F649F8291 /* Pods-CleanBreeze (iOS)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D455356EC9B71276B9C18BC842F0C543 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4D2D3674A9B630B102536D9F1E432D /* CleanBreezeUtility-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D78F8B98F5C201BBFB25BB1BDD88A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCDC6FA83D70640966C0F7FC9DDB44D /* CleanBreezeDomain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05C75C9B5A61C8CB496E0AC1B7248DF3 /* Pods-CleanBreeze (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB985346F31617586FD49A8A0F22B31 /* Build configuration list for PBXNativeTarget "Pods-CleanBreeze (iOS)" */;
+			buildPhases = (
+				71FDE85AD0B815D00C246FA9E0244404 /* Headers */,
+				B97157C0EE7E3D0D7492BA0F8D6F54AB /* Sources */,
+				B83ED4114A623AB01CD1C87095CB7F35 /* Frameworks */,
+				C3965F308B4A9A72AEF3571539C0E993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F71FBBAA28B441F2DFEFBE3924999F8 /* PBXTargetDependency */,
+				D78B60C4C0EC3B86CF830B025FA9578E /* PBXTargetDependency */,
+				9EB5862B47DEF3E70C032FE7222691BF /* PBXTargetDependency */,
+				CA1B8A65C52C1F83312EC5FDB6C1B9FC /* PBXTargetDependency */,
+			);
+			name = "Pods-CleanBreeze (iOS)";
+			productName = "Pods-CleanBreeze (iOS)";
+			productReference = 084D9B35B9463FABA037B70F0E855061 /* Pods_CleanBreeze__iOS_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1EEAB2A3D32B2D976FE52FA1DBE5507E /* Dashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E9780D6CEBC326B7866A28558FBD68 /* Build configuration list for PBXNativeTarget "Dashboard" */;
+			buildPhases = (
+				66D63FD9B6326440C0342F922359329C /* Headers */,
+				E081CB4A871E0E2EE6223A6FD8345B77 /* Sources */,
+				4A444C5B959DFA6927B0F65DA8C72014 /* Frameworks */,
+				9FA932F06B3168A0C6DC5B91DEE7B07C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D35E22ACA10D11B84A29464E29127A /* PBXTargetDependency */,
+				0C1B30CE31B076F2191F8980D6C27A33 /* PBXTargetDependency */,
+				D15F060E69A5C7555BB324A9699CD72D /* PBXTargetDependency */,
+			);
+			name = Dashboard;
+			productName = Dashboard;
+			productReference = 334743D3FAEA1E782BF5B92C93E3A590 /* Dashboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E204893E478BF4CA70D9ADC2D4E4881 /* CleanBreezeUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AEC6A086833FBD2201B84E6D8604F6 /* Build configuration list for PBXNativeTarget "CleanBreezeUtility" */;
+			buildPhases = (
+				D455356EC9B71276B9C18BC842F0C543 /* Headers */,
+				86E1AA6936FF22EE4100C91DAA5A4EF5 /* Sources */,
+				BF7E0BF32BCB1E2553224C4F4D8B2943 /* Frameworks */,
+				562E10A8414A61CAF12E241F490BF11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanBreezeUtility;
+			productName = CleanBreezeUtility;
+			productReference = 92DDEA2CE354045822DD1378107F0821 /* CleanBreezeUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2267C2D9D018961E49AA58CF3DC094C /* Networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB31216A48EC4D8DC7567AE656309115 /* Build configuration list for PBXNativeTarget "Networking" */;
+			buildPhases = (
+				0BDCB6AAD6080180EAD81DAE8FFEDB96 /* Headers */,
+				716CA5CA6FA8CDB186C8D1DD08417C81 /* Sources */,
+				6716B867210C9416507A8CEF39133BD2 /* Frameworks */,
+				6B63DB53481578AFBA3FCCC455F76717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5081ED07C863D363F9078F61EC13D50 /* PBXTargetDependency */,
+				6CC39D6EE76D4E56C00CF0049F4B00E9 /* PBXTargetDependency */,
+			);
+			name = Networking;
+			productName = Networking;
+			productReference = 108430133E58C8C5277789702DE64400 /* Networking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB72601AA4DF3AC01FE02F8C24D03D83 /* CleanBreezeDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8DE18F340D821924116929911ACA0A /* Build configuration list for PBXNativeTarget "CleanBreezeDomain" */;
+			buildPhases = (
+				E7D78F8B98F5C201BBFB25BB1BDD88A1 /* Headers */,
+				5177924B404E59A541C4321B4A5E185F /* Sources */,
+				48B8855EABEFFCC04F2F9DFE13CAAB5C /* Frameworks */,
+				BB83D7C8F7C904DA66E8F5C777235355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanBreezeDomain;
+			productName = CleanBreezeDomain;
+			productReference = E8CBE4F90238FF7BC1B70EDC898F3575 /* CleanBreezeDomain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 64561C880005AF2068BC2D66B202EACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB72601AA4DF3AC01FE02F8C24D03D83 /* CleanBreezeDomain */,
+				8E204893E478BF4CA70D9ADC2D4E4881 /* CleanBreezeUtility */,
+				1EEAB2A3D32B2D976FE52FA1DBE5507E /* Dashboard */,
+				B2267C2D9D018961E49AA58CF3DC094C /* Networking */,
+				05C75C9B5A61C8CB496E0AC1B7248DF3 /* Pods-CleanBreeze (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		562E10A8414A61CAF12E241F490BF11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63DB53481578AFBA3FCCC455F76717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA932F06B3168A0C6DC5B91DEE7B07C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB83D7C8F7C904DA66E8F5C777235355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3965F308B4A9A72AEF3571539C0E993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5177924B404E59A541C4321B4A5E185F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDB874B62EC20FEABB95C194380E411 /* AqiCategory.swift in Sources */,
+				DA2ECF9A4FB2E31677B8F1C3430F5E07 /* CBError.swift in Sources */,
+				5AE23DAE33760385BFE8E27B47030D6C /* CBResult.swift in Sources */,
+				F8ABDB6990E3CC46A7FFE86B90BBDD06 /* CityEntity.swift in Sources */,
+				630A7230063ED3FB4557B6A80F8DA199 /* CleanBreezeDomain-dummy.m in Sources */,
+				13940C8DF2FEF0208CED5F165AF51B9A /* Sample.swift in Sources */,
+				4C36398DC0E107E9F85BB4FF9D148736 /* Sample1.swift in Sources */,
+				5EAE2AA5A1F972D2912A8EAAA7512DD7 /* Sample2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716CA5CA6FA8CDB186C8D1DD08417C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FE6843420B56A720891CEDBA79B4C4 /* Networking-dummy.m in Sources */,
+				EAE9D446DE803D0376512485A0BE998C /* ReplaceMe.swift in Sources */,
+				1840A654EFC3038EC5A047C2BDBB24C6 /* WebSocketClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E1AA6936FF22EE4100C91DAA5A4EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC07A65F2C0E6F6F8812B2E8FFF2A9C5 /* CleanBreezeUtility-dummy.m in Sources */,
+				D0E3A3B0191C706BFDDBA87C7C1853C1 /* CreateObserverExtension.swift in Sources */,
+				4718794C1413270BF9311CB83CA5CF31 /* JsonDataExtension.swift in Sources */,
+				4CAE4B1BDEE7D18BC68154D4C232F378 /* ReplaceMe.swift in Sources */,
+				F8C2E0AE6E96E68805127A1B4860082B /* StringExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97157C0EE7E3D0D7492BA0F8D6F54AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD19B786D1F9F5CFBFE77A48F23F649B /* Pods-CleanBreeze (iOS)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E081CB4A871E0E2EE6223A6FD8345B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7281CAC08FBF77CD29EE5CC121841001 /* AbstractAqiViewModelMapper.swift in Sources */,
+				B313375F270A0FEE004643BE /* AqiGraphViewModelMapper.swift in Sources */,
+				4A2C9920F8A782CA5A19D13128A47EAE /* AbstractDashboardInteractor.swift in Sources */,
+				0385BC4FF86A1F7E839B9715FDEA3ED7 /* AbstractDashboardPresenter.swift in Sources */,
+				8C87BE658C8559323303A717DF8CE930 /* AqiGraphView.swift in Sources */,
+				47829556E3C5B228F7C2A5C366D94EBD /* AqiViewModel.swift in Sources */,
+				1D298B3D01CB5C58AA16DFE102A6EC91 /* AqiViewModelMapper.swift in Sources */,
+				7140144B94F4AE6E45CE271D7C87238D /* AsyncImage.swift in Sources */,
+				B3133763270A2997004643BE /* AbstractAqiProgressViewModelMapper.swift in Sources */,
+				F0BBC934B1372A116B9B6AD1C829DE4F /* Dashboard-dummy.m in Sources */,
+				B3133761270A283D004643BE /* AqiProgressViewModel.swift in Sources */,
+				A22840C956AA1FB90F085BD195CD15BF /* DashboardConfigurator.swift in Sources */,
+				6B584586F731B24F6A74E03287135056 /* DashboardInteractor.swift in Sources */,
+				071684E77B814DC592E5FBB40444B1AA /* DashboardPresenter.swift in Sources */,
+				DD43D3739E65EF9018C25DCCC3E244D9 /* DashboardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C1B30CE31B076F2191F8980D6C27A33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CleanBreezeUtility;
+			target = 8E204893E478BF4CA70D9ADC2D4E4881 /* CleanBreezeUtility */;
+			targetProxy = 55A6E00A65AAB88B75912EF05F38F2B8 /* PBXContainerItemProxy */;
+		};
+		6CC39D6EE76D4E56C00CF0049F4B00E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CleanBreezeUtility;
+			target = 8E204893E478BF4CA70D9ADC2D4E4881 /* CleanBreezeUtility */;
+			targetProxy = B21B60A166CA826B9AE94877BB21F8F2 /* PBXContainerItemProxy */;
+		};
+		87D35E22ACA10D11B84A29464E29127A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CleanBreezeDomain;
+			target = FB72601AA4DF3AC01FE02F8C24D03D83 /* CleanBreezeDomain */;
+			targetProxy = D6B838784739555F48C04C8228F1E791 /* PBXContainerItemProxy */;
+		};
+		9EB5862B47DEF3E70C032FE7222691BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dashboard;
+			target = 1EEAB2A3D32B2D976FE52FA1DBE5507E /* Dashboard */;
+			targetProxy = C7B54F6BC61186B727F1A583C16086FD /* PBXContainerItemProxy */;
+		};
+		9F71FBBAA28B441F2DFEFBE3924999F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CleanBreezeDomain;
+			target = FB72601AA4DF3AC01FE02F8C24D03D83 /* CleanBreezeDomain */;
+			targetProxy = 89B4876DDDAD4300335CB9E1DCE6C402 /* PBXContainerItemProxy */;
+		};
+		CA1B8A65C52C1F83312EC5FDB6C1B9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Networking;
+			target = B2267C2D9D018961E49AA58CF3DC094C /* Networking */;
+			targetProxy = 437676EB78C58DF3106EF96C227F2DC2 /* PBXContainerItemProxy */;
+		};
+		D15F060E69A5C7555BB324A9699CD72D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Networking;
+			target = B2267C2D9D018961E49AA58CF3DC094C /* Networking */;
+			targetProxy = 19E7AFCCFF5C2E3CCAFE56DB50A70F5D /* PBXContainerItemProxy */;
+		};
+		D78B60C4C0EC3B86CF830B025FA9578E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CleanBreezeUtility;
+			target = 8E204893E478BF4CA70D9ADC2D4E4881 /* CleanBreezeUtility */;
+			targetProxy = 1A0049B193E83C9EE976C4D594C1244F /* PBXContainerItemProxy */;
+		};
+		E5081ED07C863D363F9078F61EC13D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CleanBreezeDomain;
+			target = FB72601AA4DF3AC01FE02F8C24D03D83 /* CleanBreezeDomain */;
+			targetProxy = B7CC14A062E55BD83B61B0B23E2FBA98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CF62F038CB6DE811C4C18675B47F5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C860AE9F1460D3A890BB6955127854FB /* Networking.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Networking/Networking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Networking/Networking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Networking/Networking.modulemap";
+				PRODUCT_MODULE_NAME = Networking;
+				PRODUCT_NAME = Networking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26205210BC5D3975458EA827822C2153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA0D093BD3A7D94937B44773AE7C27E /* CleanBreezeDomain.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CleanBreezeDomain/CleanBreezeDomain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleanBreezeDomain/CleanBreezeDomain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CleanBreezeDomain/CleanBreezeDomain.modulemap";
+				PRODUCT_MODULE_NAME = CleanBreezeDomain;
+				PRODUCT_NAME = CleanBreezeDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D768C68DF894F64B4F683C965647138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D278CC7E296D968906DC1543FC83BCAC /* Dashboard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dashboard/Dashboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dashboard/Dashboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dashboard/Dashboard.modulemap";
+				PRODUCT_MODULE_NAME = Dashboard;
+				PRODUCT_NAME = Dashboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6393E11C9C83D09F2D38205D6C4BD4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF46F743E17E85ADB4F830879C2FD4E /* Networking.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Networking/Networking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Networking/Networking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Networking/Networking.modulemap";
+				PRODUCT_MODULE_NAME = Networking;
+				PRODUCT_NAME = Networking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72D61A04733F049E1B8A8EBD1A638A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA97E9028A4B72D4AFBB8D7F7C839EF /* CleanBreezeDomain.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CleanBreezeDomain/CleanBreezeDomain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleanBreezeDomain/CleanBreezeDomain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CleanBreezeDomain/CleanBreezeDomain.modulemap";
+				PRODUCT_MODULE_NAME = CleanBreezeDomain;
+				PRODUCT_NAME = CleanBreezeDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		90330E7EBC472203A7165DFE97AA984F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045A0F3765D4CCBB5DAF5F53D0423491 /* Pods-CleanBreeze (iOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanBreeze (iOS)/Pods-CleanBreeze (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanBreeze (iOS)/Pods-CleanBreeze (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91D215B0AC92A59AB6FA51A185A921DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2CA8E0A905536A91F90AA2EA24653A /* Pods-CleanBreeze (iOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanBreeze (iOS)/Pods-CleanBreeze (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanBreeze (iOS)/Pods-CleanBreeze (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D0F04EDFFBA3F1DE1A9E29724DC183C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322A868E2B8B83F0DCB5CAC4C253958A /* CleanBreezeUtility.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CleanBreezeUtility/CleanBreezeUtility-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleanBreezeUtility/CleanBreezeUtility-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CleanBreezeUtility/CleanBreezeUtility.modulemap";
+				PRODUCT_MODULE_NAME = CleanBreezeUtility;
+				PRODUCT_NAME = CleanBreezeUtility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D55EA04E9EFF4A92E133D3D9E74CB185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBAAD5E6EEFA568D1EEB14BCA9F46164 /* CleanBreezeUtility.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CleanBreezeUtility/CleanBreezeUtility-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleanBreezeUtility/CleanBreezeUtility-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CleanBreezeUtility/CleanBreezeUtility.modulemap";
+				PRODUCT_MODULE_NAME = CleanBreezeUtility;
+				PRODUCT_NAME = CleanBreezeUtility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9D09CBEDE98C9B86ED19788306019BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2951A854670BAF2E2869443E291A72F /* Dashboard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dashboard/Dashboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dashboard/Dashboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dashboard/Dashboard.modulemap";
+				PRODUCT_MODULE_NAME = Dashboard;
+				PRODUCT_NAME = Dashboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16AEC6A086833FBD2201B84E6D8604F6 /* Build configuration list for PBXNativeTarget "CleanBreezeUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F04EDFFBA3F1DE1A9E29724DC183C9 /* Debug */,
+				D55EA04E9EFF4A92E133D3D9E74CB185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8DE18F340D821924116929911ACA0A /* Build configuration list for PBXNativeTarget "CleanBreezeDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D61A04733F049E1B8A8EBD1A638A48 /* Debug */,
+				26205210BC5D3975458EA827822C2153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E9780D6CEBC326B7866A28558FBD68 /* Build configuration list for PBXNativeTarget "Dashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D09CBEDE98C9B86ED19788306019BB /* Debug */,
+				5D768C68DF894F64B4F683C965647138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB985346F31617586FD49A8A0F22B31 /* Build configuration list for PBXNativeTarget "Pods-CleanBreeze (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D215B0AC92A59AB6FA51A185A921DA /* Debug */,
+				90330E7EBC472203A7165DFE97AA984F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB31216A48EC4D8DC7567AE656309115 /* Build configuration list for PBXNativeTarget "Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6393E11C9C83D09F2D38205D6C4BD4B7 /* Debug */,
+				1CF62F038CB6DE811C4C18675B47F5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

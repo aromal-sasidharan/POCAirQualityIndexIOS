@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-CleanBreeze (iOS)/Pods-CleanBreeze (iOS)-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CleanBreezeDomain/CleanBreezeDomain.framework
+${BUILT_PRODUCTS_DIR}/CleanBreezeUtility/CleanBreezeUtility.framework
+${BUILT_PRODUCTS_DIR}/Dashboard/Dashboard.framework
+${BUILT_PRODUCTS_DIR}/Networking/Networking.framework

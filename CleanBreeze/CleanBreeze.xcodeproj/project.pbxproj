@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3336743270582FB00E530C2 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3336742270582FB00E530C2 /* Tests_iOS.swift */; };
+		B3336750270582FB00E530C2 /* CleanBreezeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3336727270582F900E530C2 /* CleanBreezeApp.swift */; };
+		B3336754270582FB00E530C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3336729270582FB00E530C2 /* Assets.xcassets */; };
+		D46A219135BA352C33ECF0D0 /* Pods_CleanBreeze__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7701C4C7E566156EAF0A391 /* Pods_CleanBreeze__iOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B333673F270582FB00E530C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3336722270582F900E530C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B333672D270582FB00E530C2;
+			remoteInfo = "CleanBreeze (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3336727270582F900E530C2 /* CleanBreezeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanBreezeApp.swift; sourceTree = "<group>"; };
+		B3336729270582FB00E530C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B333672E270582FB00E530C2 /* CleanBreeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanBreeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3336731270582FB00E530C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B333673E270582FB00E530C2 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3336742270582FB00E530C2 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		B3336744270582FB00E530C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7701C4C7E566156EAF0A391 /* Pods_CleanBreeze__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanBreeze__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C017568D36C1153ED1318256 /* Pods-CleanBreeze (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanBreeze (iOS).release.xcconfig"; path = "Target Support Files/Pods-CleanBreeze (iOS)/Pods-CleanBreeze (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		FB6180A336D1C2E456037723 /* Pods-CleanBreeze (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanBreeze (iOS).debug.xcconfig"; path = "Target Support Files/Pods-CleanBreeze (iOS)/Pods-CleanBreeze (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B333672B270582FB00E530C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46A219135BA352C33ECF0D0 /* Pods_CleanBreeze__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333673B270582FB00E530C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0850E9A3991E8350E07ED753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7701C4C7E566156EAF0A391 /* Pods_CleanBreeze__iOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		891CB89AF208072F10406E7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB6180A336D1C2E456037723 /* Pods-CleanBreeze (iOS).debug.xcconfig */,
+				C017568D36C1153ED1318256 /* Pods-CleanBreeze (iOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		B3336721270582F900E530C2 = {
+			isa = PBXGroup;
+			children = (
+				B3336726270582F900E530C2 /* Shared */,
+				B3336730270582FB00E530C2 /* iOS */,
+				B3336741270582FB00E530C2 /* Tests iOS */,
+				B333672F270582FB00E530C2 /* Products */,
+				891CB89AF208072F10406E7B /* Pods */,
+				0850E9A3991E8350E07ED753 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3336726270582F900E530C2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B3336727270582F900E530C2 /* CleanBreezeApp.swift */,
+				B3336729270582FB00E530C2 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B333672F270582FB00E530C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B333672E270582FB00E530C2 /* CleanBreeze.app */,
+				B333673E270582FB00E530C2 /* Tests iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3336730270582FB00E530C2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B3336731270582FB00E530C2 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		B3336741270582FB00E530C2 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B3336742270582FB00E530C2 /* Tests_iOS.swift */,
+				B3336744270582FB00E530C2 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B333672D270582FB00E530C2 /* CleanBreeze (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3336758270582FB00E530C2 /* Build configuration list for PBXNativeTarget "CleanBreeze (iOS)" */;
+			buildPhases = (
+				679833A4673E1D665E326FED /* [CP] Check Pods Manifest.lock */,
+				B333672A270582FB00E530C2 /* Sources */,
+				B333672B270582FB00E530C2 /* Frameworks */,
+				B333672C270582FB00E530C2 /* Resources */,
+				010B0FCF2D48F02FA9F15BB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CleanBreeze (iOS)";
+			productName = "CleanBreeze (iOS)";
+			productReference = B333672E270582FB00E530C2 /* CleanBreeze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B333673D270582FB00E530C2 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B333675E270582FB00E530C2 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				B333673A270582FB00E530C2 /* Sources */,
+				B333673B270582FB00E530C2 /* Frameworks */,
+				B333673C270582FB00E530C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3336740270582FB00E530C2 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = B333673E270582FB00E530C2 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3336722270582F900E530C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B333672D270582FB00E530C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B333673D270582FB00E530C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B333672D270582FB00E530C2;
+					};
+				};
+			};
+			buildConfigurationList = B3336725270582F900E530C2 /* Build configuration list for PBXProject "CleanBreeze" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3336721270582F900E530C2;
+			productRefGroup = B333672F270582FB00E530C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B333672D270582FB00E530C2 /* CleanBreeze (iOS) */,
+				B333673D270582FB00E530C2 /* Tests iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B333672C270582FB00E530C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3336754270582FB00E530C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333673C270582FB00E530C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		010B0FCF2D48F02FA9F15BB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CleanBreeze (iOS)/Pods-CleanBreeze (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CleanBreeze (iOS)/Pods-CleanBreeze (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CleanBreeze (iOS)/Pods-CleanBreeze (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679833A4673E1D665E326FED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleanBreeze (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B333672A270582FB00E530C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3336750270582FB00E530C2 /* CleanBreezeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333673A270582FB00E530C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3336743270582FB00E530C2 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3336740270582FB00E530C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B333672D270582FB00E530C2 /* CleanBreeze (iOS) */;
+			targetProxy = B333673F270582FB00E530C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3336756270582FB00E530C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3336757270582FB00E530C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B3336759270582FB00E530C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6180A336D1C2E456037723 /* Pods-CleanBreeze (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKTNTY7Q25;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sastraz.ios.cleanbreeze.CleanBreeze;
+				PRODUCT_NAME = CleanBreeze;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B333675A270582FB00E530C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C017568D36C1153ED1318256 /* Pods-CleanBreeze (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKTNTY7Q25;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sastraz.ios.cleanbreeze.CleanBreeze;
+				PRODUCT_NAME = CleanBreeze;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B333675F270582FB00E530C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKTNTY7Q25;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sastraz.ios.cleanbreeze.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CleanBreeze (iOS)";
+			};
+			name = Debug;
+		};
+		B3336760270582FB00E530C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKTNTY7Q25;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sastraz.ios.cleanbreeze.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CleanBreeze (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3336725270582F900E530C2 /* Build configuration list for PBXProject "CleanBreeze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3336756270582FB00E530C2 /* Debug */,
+				B3336757270582FB00E530C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3336758270582FB00E530C2 /* Build configuration list for PBXNativeTarget "CleanBreeze (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3336759270582FB00E530C2 /* Debug */,
+				B333675A270582FB00E530C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B333675E270582FB00E530C2 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B333675F270582FB00E530C2 /* Debug */,
+				B3336760270582FB00E530C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3336722270582F900E530C2 /* Project object */;
+}

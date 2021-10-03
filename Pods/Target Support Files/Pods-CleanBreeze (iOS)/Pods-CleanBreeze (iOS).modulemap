@@ -1,0 +1,6 @@
+framework module Pods_CleanBreeze__iOS_ {
+  umbrella header "Pods-CleanBreeze (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CleanBreezeUtility {
+  umbrella header "CleanBreezeUtility-umbrella.h"
+
+  export *
+  module * { export * }
+}
