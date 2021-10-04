@@ -64,10 +64,11 @@ public class DashboardPresenter: AbstractDashboardPresenter {
         chartUpdateCancelable?.cancel()
         chartUpdateCancelable = interactor?.loadAqiFor(city: entity.city)
             .subscribe(on: DispatchQueue.global(qos: .background))
-            .receive(on: DispatchQueue.main)
+            .receive(on: DispatchQueue.global(qos: .background))
             .map({ [weak self] (items:[AbstractAqiEntity]) -> [AbstractAqiProgressViewModel] in
                 return self?.graphAqiMapper?.mapAll(items) ?? []
             })
+            .receive(on: DispatchQueue.main)
             .sink(receiveValue: { [weak self] values in
                 self?.showChart = true
                 self?.graphAqis = values
