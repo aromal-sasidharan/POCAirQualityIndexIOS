@@ -31,14 +31,24 @@ public struct DashboardView<Presenter>: View where Presenter: AbstractDashboardP
                         Button(action: {
                             presenter.showChart(forItem: item)
                         }){
-                            CityRowView(viewModel: item)}
+                            CityRowView(viewModel: item)
+                            
+                        }
                         .padding()
                         .background(item.fontColor)
                         
                         .cornerRadius(10)
+                    }
                         .listRowBackground(Color.clear)
-                    }.shadow(radius: 5)
+                    .listRowInsets(.none)
+                    .shadow(radius: 5)
+                   
+
+                } .onAppear() {
+                    UITableView.appearance().backgroundColor = UIColor.clear
+                    UITableViewCell.appearance().backgroundColor = UIColor.clear
                 }
+
             }
     }
 }
