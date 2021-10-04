@@ -11,21 +11,11 @@ struct AqiGraphView: View {
     @Binding var dismiss:Bool
     @Binding var aqis:[AbstractAqiProgressViewModel]
     var heightConstanst: CGFloat = 0.40
-    func getHeight(aqi:Double, totalHeight: CGFloat) -> CGFloat {
-        let mul = totalHeight / 500.0
-        let height: CGFloat = CGFloat(Double(aqi)) * mul
-        if height < 120 {
-            return 120
-        }
-        return height
-    }
     var body: some View {
-        GeometryReader { metrics in
             ZStack {
                 VStack{
                     Spacer()
                 }
-                .frame(height: metrics.size.height)
                 VStack {
                     Spacer()
                 VStack {
@@ -49,7 +39,7 @@ struct AqiGraphView: View {
                             }
                         }.padding(.trailing,10)
                     }
-                    .frame(height: metrics.size.height * 0.10)
+                    .frame(height: 100)
                     .background(aqis.first?.fontColor ?? .clear)
                     ScrollView (.horizontal, showsIndicators: false) {
                         HStack {
@@ -73,8 +63,8 @@ struct AqiGraphView: View {
                 } .background(Color.white)
                 .cornerRadius(20)
                 .padding()
-                    Spacer()
-                }
+                Spacer()
+                
                 
                
             }.background(Color.gray.opacity(0.5))
