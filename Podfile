@@ -6,14 +6,6 @@ platform :ios, '13.0'
 workspace 'CleanBreeze.xcworkspace' 
 project 'CleanBreeze/CleanBreeze.xcodeproj'
 
-# # Rx
-# def rx_pods
-#   pod 'RxSwift', '~> 5.1.1'
-#   pod 'RxCocoa', '~> 5.1.1'
-#   pod 'RxSwiftExt', '~> 5'
-#   pod 'RxGesture', '~> 3'
-# end
-
 def module_networking
   pod 'Networking', :path => 'Modules/Networking'
 end 
@@ -34,11 +26,10 @@ def modules
 end
 
 target 'CleanBreeze (iOS)' do
-  
+  # Pods for CleanBreeze (iOS)
   use_frameworks!
   modules
-  # rx_pods
-  # Pods for CleanBreeze (iOS)
+  
 end
 
 
