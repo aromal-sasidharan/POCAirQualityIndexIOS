@@ -14,7 +14,8 @@ iOS app used to list **Air Quality Index** of major Indian Cities.
 
 ## Technology Used
 1. Developed with **SwiftUI**
-2. Used Modular Architecture with **VIPER**
+2. Used Modular Architecture with **VIPER** 
+3. Used Apple's **Combine** framework for *Reactive Programming* 
 3. **No Third Party Libraries**
 
 
