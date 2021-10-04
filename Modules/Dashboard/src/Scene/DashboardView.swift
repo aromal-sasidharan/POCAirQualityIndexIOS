@@ -59,18 +59,21 @@ struct CityRowView: View {
     var body: some View {
         HStack {
             Text(viewModel.cityName)
+                .font(.headline)
                 .frame(maxWidth: .infinity, alignment: .leading)
-            Text(viewModel.aqi)
-                .foregroundColor(Color.white)
                 
-                .bold()
-                .frame(maxWidth: .infinity, alignment: .center)
-                .shadow(radius: 3)
-                .animation(.easeIn)
-            
-            
-            Text(viewModel.timeDescriptiion ?? "")
-            .frame(maxWidth: .infinity, alignment: .trailing)
+            VStack {
+                Text(viewModel.aqi)
+                    .foregroundColor(Color.white)
+                    
+                    .bold()
+                    .frame(maxWidth: .infinity, alignment: .trailing)
+                    .shadow(color: .black, radius: 10)
+                    .animation(.easeIn)
+                Text(viewModel.timeDescriptiion ?? "")
+                .frame(maxWidth: .infinity, alignment: .trailing)
+            }.frame(maxWidth:.infinity)
+           
         }
     }
 }
