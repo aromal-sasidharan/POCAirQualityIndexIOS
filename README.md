@@ -5,10 +5,9 @@ iOS app used to list **Air Quality Index** of major Indian Cities.
 ## Setup
 
 1. Requirements - XCode 12.5.1
-2. Open Terminal in parent folder
-3. run ```pod Install```
-4. open ```CleanBreeze.xcworkspace```
-5. run the app!
+2. Open Terminal and run ```pod Install```
+4. Open ```CleanBreeze.xcworkspace```
+5. Run the app!
 ## Sample Reference
 
 ![Reference](https://raw.githubusercontent.com/aromal-sasidharan/POCAirQualityIndexIOS/master/readme/sample.gif "Clean Breeze")
