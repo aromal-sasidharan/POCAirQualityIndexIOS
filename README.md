@@ -10,7 +10,7 @@ iOS app used to list **Air Quality Index** of major Indian Cities.
 5. Run the app!
 ## Sample Reference
 
-![Reference](https://raw.githubusercontent.com/aromal-sasidharan/POCAirQualityIndexIOS/master/readme/sample.gif "Clean Breeze")
+![Reference](./readme/sample.gif "Clean Breeze")
 
 ## Technology Used
 1. Developed with **SwiftUI**
