@@ -1,0 +1,36 @@
+PODS:
+  - CleanBreezeDomain (0.1.0)
+  - CleanBreezeUtility (0.1.0)
+  - Dashboard (0.1.0):
+    - CleanBreezeDomain
+    - CleanBreezeUtility
+    - Networking
+  - Networking (0.1.0):
+    - CleanBreezeDomain
+    - CleanBreezeUtility
+
+DEPENDENCIES:
+  - CleanBreezeDomain (from `Modules/CleanBreezeDomain`)
+  - CleanBreezeUtility (from `Modules/CleanBreezeUtility`)
+  - Dashboard (from `Modules/Dashboard`)
+  - Networking (from `Modules/Networking`)
+
+EXTERNAL SOURCES:
+  CleanBreezeDomain:
+    :path: Modules/CleanBreezeDomain
+  CleanBreezeUtility:
+    :path: Modules/CleanBreezeUtility
+  Dashboard:
+    :path: Modules/Dashboard
+  Networking:
+    :path: Modules/Networking
+
+SPEC CHECKSUMS:
+  CleanBreezeDomain: 2b5360ce4df85a3a0d1cdb8f9233913b383a2373
+  CleanBreezeUtility: 1f9549c837d1ea59ee7f18054d0d64c1c11b9575
+  Dashboard: 019ba2caf06674d4330bfd9a17fc9fab3532bb8e
+  Networking: ad73d237b5f4b6a995680eba6ce469c1a34b8c5f
+
+PODFILE CHECKSUM: bdd265e35d338ee28c0d945cdf0ffde91e29ef59
+
+COCOAPODS: 1.10.2
