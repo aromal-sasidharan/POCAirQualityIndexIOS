@@ -13,7 +13,10 @@ iOS app used to list **Air Quality Index** of major Indian Cities.
 ![Reference](https://raw.githubusercontent.com/aromal-sasidharan/POCAirQualityIndexIOS/master/readme/sample.gif "Clean Breeze")
 
 
-
+##Technology
+1. Developed with **SwiftUI**
+2. Used Modular Architecture with **VIPER**
+3. **No Third Party Libraries**
 
 
 
