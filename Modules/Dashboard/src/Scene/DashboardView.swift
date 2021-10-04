@@ -24,7 +24,7 @@ public struct DashboardView<Presenter>: View where Presenter: AbstractDashboardP
     
     func contentView() -> some View {
             VStack {
-                Text("Air Quaility Index")
+                Text("Air Quality Index")
                 .font(.title)
                 List {
                     ForEach(presenter.allAqis, id: \.cityName) { item in
